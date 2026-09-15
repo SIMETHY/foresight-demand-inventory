@@ -1,0 +1,26 @@
+{
+  "7-Day Moving Avg (Baseline)": {
+    "MAE": 3.221,
+    "RMSE": 4.224,
+    "WAPE (%)": 25.95,
+    "R2": 0.675
+  },
+  "Ridge Regression": {
+    "MAE": 2.881,
+    "RMSE": 3.7,
+    "WAPE (%)": 23.21,
+    "R2": 0.751
+  },
+  "Random Forest": {
+    "MAE": 2.799,
+    "RMSE": 3.614,
+    "WAPE (%)": 22.55,
+    "R2": 0.762
+  },
+  "HistGradientBoosting (Best)": {
+    "MAE": 2.761,
+    "RMSE": 3.559,
+    "WAPE (%)": 22.24,
+    "R2": 0.769
+  }
+}
