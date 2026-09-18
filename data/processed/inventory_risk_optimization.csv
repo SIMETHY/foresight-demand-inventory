@@ -1,0 +1,51 @@
+SKU,Product_Name,Category,Subcategory,Current_Stock,On_Order,Lead_Time_Days,Avg_Daily_Demand,Demand_Std,Calculated_Safety_Stock,Calculated_Reorder_Point,Expected_Demand_LeadTime,Projected_Stock,Selling_Price,Stockout_Risk_Status,Lost_Units,Projected_Lost_Revenue
+SKU012,Product 012,Home Decor,Table,47,60,12,25.31,7.0,40.0,344.0,304.36,-197.36,8779.37,Critical,197.36,1732696.46
+SKU031,Product 031,Furniture,Chair,93,40,13,18.13,5.31,32.0,267.0,236.9,-103.9,8715.93,Critical,103.9,905585.13
+SKU017,Product 017,Home Decor,Cabinet,95,26,12,14.06,4.47,26.0,194.0,168.26,-47.26,8477.32,Critical,47.26,400638.14
+SKU040,Product 040,Storage,Sofa,67,29,9,14.51,4.72,23.0,154.0,129.01,-33.01,2450.56,Critical,33.01,80892.99
+SKU010,Product 010,Storage,Sofa,83,70,13,16.98,5.25,31.0,252.0,222.71,-69.71,663.46,Critical,69.71,46249.8
+SKU001,Product 001,Furniture,Chair,771,147,4,13.64,4.75,16.0,70.0,55.9,862.1,3664.05,Overstock,0.0,0.0
+SKU006,Product 006,Furniture,Shelf,359,485,13,6.82,2.81,17.0,105.0,86.13,757.87,8106.04,Overstock,0.0,0.0
+SKU007,Product 007,Home Decor,Cabinet,207,460,8,24.3,6.53,30.0,225.0,189.6,477.4,5114.09,Overstock,0.0,0.0
+SKU002,Product 002,Home Decor,Table,526,29,3,9.49,3.71,11.0,39.0,26.96,528.04,3805.69,Overstock,0.0,0.0
+SKU003,Product 003,Kitchen,Cushion,349,12,3,5.36,2.76,8.0,24.0,15.27,345.73,8078.23,Overstock,0.0,0.0
+SKU009,Product 009,Lighting,Organizer,75,89,7,10.86,3.81,17.0,93.0,75.67,88.33,2336.89,Warning,0.0,0.0
+SKU008,Product 008,Kitchen,Rug,325,155,3,16.25,4.92,14.0,63.0,46.86,433.14,9842.64,Overstock,0.0,0.0
+SKU013,Product 013,Kitchen,Cushion,151,95,4,13.34,4.52,15.0,68.0,54.98,191.02,5757.78,Overstock,0.0,0.0
+SKU011,Product 011,Furniture,Chair,753,269,3,2.98,1.74,5.0,14.0,9.0,1013.0,1444.56,Overstock,0.0,0.0
+SKU014,Product 014,Lighting,Cookware,309,334,10,19.68,5.97,31.0,228.0,192.87,450.13,2270.75,Normal,0.0,0.0
+SKU015,Product 015,Storage,Lamp,187,245,9,4.19,2.2,11.0,49.0,37.03,394.97,6212.12,Overstock,0.0,0.0
+SKU005,Product 005,Storage,Lamp,471,291,6,16.82,4.81,19.0,120.0,101.4,660.6,9493.22,Overstock,0.0,0.0
+SKU004,Product 004,Lighting,Cookware,259,254,6,4.76,2.36,10.0,38.0,29.71,483.29,6861.57,Overstock,0.0,0.0
+SKU018,Product 018,Kitchen,Rug,235,102,8,24.55,6.53,30.0,227.0,193.02,143.98,5575.41,Warning,0.0,0.0
+SKU016,Product 016,Furniture,Shelf,255,187,11,13.92,4.41,24.0,177.0,151.86,290.14,2166.82,Normal,0.0,0.0
+SKU021,Product 021,Furniture,Chair,88,97,9,8.29,3.15,16.0,90.0,72.79,112.21,7711.28,Normal,0.0,0.0
+SKU019,Product 019,Lighting,Organizer,227,114,14,16.45,5.08,31.0,262.0,231.5,109.5,4819.85,Warning,0.0,0.0
+SKU023,Product 023,Kitchen,Cushion,130,79,12,15.09,4.61,26.0,207.0,179.66,29.34,1416.74,Warning,0.0,0.0
+SKU024,Product 024,Lighting,Cookware,341,18,14,12.18,4.54,28.0,199.0,170.32,188.68,1768.87,Warning,0.0,0.0
+SKU025,Product 025,Storage,Lamp,1124,61,14,2.98,1.7,10.0,52.0,41.78,1143.22,11558.01,Overstock,0.0,0.0
+SKU020,Product 020,Storage,Sofa,1002,353,3,13.68,4.25,12.0,53.0,40.61,1314.39,3897.54,Overstock,0.0,0.0
+SKU026,Product 026,Furniture,Shelf,160,70,5,21.92,6.43,24.0,133.0,109.61,120.39,10939.54,Warning,0.0,0.0
+SKU027,Product 027,Home Decor,Cabinet,567,103,3,25.07,6.32,18.0,93.0,75.09,594.91,8516.6,Overstock,0.0,0.0
+SKU029,Product 029,Lighting,Organizer,261,520,5,15.53,4.67,17.0,95.0,77.87,703.13,11642.45,Overstock,0.0,0.0
+SKU028,Product 028,Kitchen,Rug,174,55,11,4.99,2.54,14.0,69.0,53.05,175.95,3484.09,Overstock,0.0,0.0
+SKU030,Product 030,Storage,Sofa,166,32,9,4.77,2.28,11.0,54.0,42.05,155.95,9433.51,Overstock,0.0,0.0
+SKU032,Product 032,Home Decor,Table,278,214,11,9.22,3.52,19.0,121.0,99.13,392.87,5612.59,Overstock,0.0,0.0
+SKU033,Product 033,Kitchen,Cushion,208,168,12,17.39,5.62,32.0,241.0,210.52,165.48,3558.0,Warning,0.0,0.0
+SKU022,Product 022,Home Decor,Table,95,194,8,10.34,3.78,18.0,100.0,80.78,208.22,4597.03,Overstock,0.0,0.0
+SKU034,Product 034,Lighting,Cookware,34,103,5,19.01,6.0,22.0,117.0,95.61,41.39,1518.14,Warning,0.0,0.0
+SKU035,Product 035,Storage,Lamp,670,76,8,20.89,5.97,28.0,195.0,165.91,580.09,10870.19,Overstock,0.0,0.0
+SKU037,Product 037,Home Decor,Cabinet,355,687,8,23.73,6.43,30.0,220.0,181.36,860.64,2747.42,Overstock,0.0,0.0
+SKU036,Product 036,Furniture,Shelf,383,135,3,4.86,2.34,7.0,21.0,14.47,503.53,5687.0,Overstock,0.0,0.0
+SKU038,Product 038,Kitchen,Rug,159,310,12,7.91,3.14,18.0,113.0,93.27,375.73,3949.1,Overstock,0.0,0.0
+SKU039,Product 039,Lighting,Organizer,93,35,3,3.28,1.83,5.0,15.0,9.58,118.42,7118.95,Overstock,0.0,0.0
+SKU041,Product 041,Furniture,Chair,440,40,4,10.93,3.95,13.0,57.0,43.43,436.57,10336.73,Overstock,0.0,0.0
+SKU042,Product 042,Home Decor,Table,90,120,6,23.47,6.09,25.0,165.0,139.58,70.42,9198.83,Warning,0.0,0.0
+SKU043,Product 043,Kitchen,Cushion,559,211,12,22.59,6.17,35.0,306.0,265.94,504.06,8745.77,Normal,0.0,0.0
+SKU044,Product 044,Lighting,Cookware,223,39,5,9.42,3.53,13.0,60.0,45.47,216.53,5412.28,Overstock,0.0,0.0
+SKU045,Product 045,Storage,Lamp,307,142,4,24.8,7.04,23.0,122.0,98.36,350.64,7676.78,Overstock,0.0,0.0
+SKU046,Product 046,Furniture,Shelf,119,182,4,8.89,3.41,11.0,47.0,36.14,264.86,7175.54,Overstock,0.0,0.0
+SKU047,Product 047,Home Decor,Cabinet,201,129,9,14.32,4.6,23.0,152.0,127.77,202.23,7938.22,Normal,0.0,0.0
+SKU048,Product 048,Kitchen,Rug,106,50,3,7.99,3.41,10.0,34.0,23.57,132.43,1379.55,Overstock,0.0,0.0
+SKU049,Product 049,Lighting,Organizer,780,599,5,24.78,6.29,23.0,147.0,123.85,1255.15,5223.37,Overstock,0.0,0.0
+SKU050,Product 050,Storage,Sofa,328,525,14,6.77,2.81,17.0,112.0,92.75,760.25,882.72,Overstock,0.0,0.0

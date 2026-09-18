@@ -9,8 +9,8 @@ Endpoints:
     GET  /skus                        — list all known SKUs
     GET  /forecast/{sku}?days=30      — on-demand recursive forecast (recomputed from the trained model)
     GET  /forecast                    — pre-generated 30-day forecast for all SKUs (from forecast_demand_30d.csv)
-    GET  /risk/{sku}                  — risk score for one SKU (from risk_scores.csv)
-    GET  /risk?tier=...               — full risk table, optionally filtered by Risk_Tier
+    GET  /risk/{sku}                  — risk score for one SKU (from inventory_risk_optimization.csv)
+    GET  /risk?status=...             — full risk table, optionally filtered by Stockout_Risk_Status
 """
 
 from pathlib import Path
@@ -38,7 +38,7 @@ calendar["is_holiday"] = calendar["holiday"].notna().astype(int)
 calendar["Promotion"] = (calendar["promotion_event"].fillna("None") != "None").astype(int)
 cal_map = calendar.set_index("date")
 
-risk_scores = pd.read_csv(PROCESSED_DIR / "risk_scores.csv")
+risk_scores = pd.read_csv(PROCESSED_DIR / "inventory_risk_optimization.csv")
 precomputed_forecast = pd.read_csv(PROCESSED_DIR / "forecast_demand_30d.csv", parse_dates=["Date"])
 
 FEATURES = [
@@ -147,8 +147,8 @@ def risk_sku(sku: str):
 
 
 @app.get("/risk")
-def risk_all(tier: Optional[str] = None):
+def risk_all(status: Optional[str] = None):
     df = risk_scores
-    if tier:
-        df = df[df["Risk_Tier"] == tier]
+    if status:
+        df = df[df["Stockout_Risk_Status"] == status]
     return df.to_dict(orient="records")
