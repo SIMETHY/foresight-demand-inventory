@@ -160,28 +160,33 @@ Interactive Swagger docs available at: [http://localhost:8000/docs](http://local
 ```
 foresight-demand-inventory/
 ├── api/
-│   └── main.py                     # FastAPI REST scoring service (M6)
+│   └── main.py                                    # FastAPI REST scoring service (M6)
+├── dashboard/
+│   └── app.py                                     # Advanced custom-styled Streamlit UI
 ├── data/
-│   ├── raw/                        # Source datasets (sales, inventory, sku, calendar)
-│   └── processed/                  # Fact/dim tables, forecasts, risk scores
+│   ├── raw/                                       # Source datasets (sales, inventory, sku, calendar)
+│   └── processed/                                 # Fact/dim tables, forecasts, risk scores
 ├── models/
-│   └── demand_forecaster.joblib    # Production HistGradientBoosting model artifact
+│   └── demand_forecaster.joblib                   # Production HistGradientBoosting model artifact
 ├── notebooks/
-│   ├── 01_data_pipeline.ipynb      # ETL validation & star-schema creation
-│   ├── 02_EDA.ipynb                # Exploratory analysis & seasonality decomposition
-│   ├── 03_demand_forecasting.ipynb # Feature engineering & model benchmarking
-│   └── 04_risk_scoring.ipynb       # Safety stock & financial risk calculations
+│   ├── 01_data_pipeline.ipynb                     # ETL validation & star-schema creation
+│   ├── 02_EDA.ipynb                               # Exploratory analysis & seasonality decomposition
+│   ├── 03_demand_forecasting.ipynb                # Feature engineering & model benchmarking
+│   └── 04_risk_scoring.ipynb                      # Safety stock & financial risk calculations
 ├── src/
-│   ├── data_pipeline.py            # Production ETL pipeline script
-│   ├── forecasting.py              # ML training & 30-day recursive forecast engine
-│   └── risk_scoring.py             # Inventory risk & replenishment engine
-├── app.py                          # Streamlit interactive decision-support dashboard
-├── requirements.txt                # Pinned production dependencies
-└── README.md                       # Platform documentation
+│   ├── data_pipeline.py                           # Production ETL pipeline script
+│   ├── forecasting.py                             # ML training & 30-day recursive forecast engine
+│   └── risk_scoring.py                            # Inventory risk & replenishment engine
+├── app.py                                         # Streamlit root application
+├── Foresight Demand Inventory Final Output..pbix  # Interactive Power BI Report
+├── PROJECT_REPORT.md                              # Comprehensive Technical Project Report
+├── Power_BI_readme.md                             # Power BI documentation & visual breakdown
+├── requirements.txt                               # Pinned production dependencies
+└── README.md                                      # Platform documentation
 ```
 
 ---
 
 ## 👥 Contributors & Acknowledgements
 - Developed for **FORESIGHT Demand & Inventory Intelligence Platform**.
-- Built with Python, Scikit-Learn, FastAPI, and Streamlit.
+- Built with Python, Scikit-Learn, FastAPI, Streamlit, and Power BI.
